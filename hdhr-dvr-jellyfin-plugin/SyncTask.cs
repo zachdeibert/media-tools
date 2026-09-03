@@ -220,11 +220,11 @@ public class SyncTask(IConfigurationManager config, IHttpClientFactory httpClien
 
     public IEnumerable<TaskTriggerInfo> GetDefaultTriggers() => [
         new TaskTriggerInfo {
-            Type = TaskTriggerInfo.TriggerStartup,
+            Type = TaskTriggerInfoType.StartupTrigger,
         },
         new TaskTriggerInfo {
             IntervalTicks = TimeSpan.FromMinutes(10).Ticks,
-            Type = TaskTriggerInfo.TriggerInterval,
+            Type = TaskTriggerInfoType.IntervalTrigger,
         },
     ];
 }

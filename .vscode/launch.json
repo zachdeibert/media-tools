@@ -7,7 +7,7 @@
             "name": "Jellyfin",
             "request": "launch",
             "preLaunchTask": "jellyfin-build-and-copy",
-            "program": "${config:jellyfinDir}/bin/Debug/net8.0/jellyfin.dll",
+            "program": "${config:jellyfinDir}/bin/Debug/net9.0/jellyfin.dll",
             "args": [
                 "--webdir",
                 "${config:jellyfinWebDir}/dist/"

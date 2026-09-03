@@ -8,6 +8,14 @@
         "overview": "Download DVR content recorded on HDHomeRun",
         "versions": [
             {
+                "checksum": "f079b423bd8d547d8e72608041e63f3c",
+                "changelog": "Upgrade for Jellyfin 10.11.11",
+                "targetAbi": "10.11.11.0",
+                "sourceUrl": "https://github.com/zachdeibert/media-tools/releases/download/hdhomerun-dvr%2F1.1.0.0/jellyfin-plugin-hdhomerun-dvr_1.1.0.0.zip",
+                "timestamp": "2026-09-02T21:42:27Z",
+                "version": "1.1.0.0"
+            },
+            {
                 "checksum": "f0c49127f07e89d4e972e3fa34fc6b66",
                 "changelog": "Initial version",
                 "targetAbi": "10.10.7.0",
@@ -25,6 +33,14 @@
         "owner": "zachdeibert",
         "overview": "Pull guide data from HDHomeRun",
         "versions": [
+            {
+                "checksum": "d30435ab513e647033c99a5f57b5c577",
+                "changelog": "Upgrade for Jellyfin 10.11.11",
+                "targetAbi": "10.11.11.0",
+                "sourceUrl": "https://github.com/zachdeibert/media-tools/releases/download/hdhomerun-guide%2F1.1.0.0/jellyfin-plugin-hdhomerun-guide_1.1.0.0.zip",
+                "timestamp": "2026-09-02T21:42:27Z",
+                "version": "1.1.0.0"
+            },
             {
                 "checksum": "9961e2a751c716888583a009ef513abb",
                 "changelog": "Fix checksum",
